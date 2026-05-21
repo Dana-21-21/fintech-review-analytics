@@ -156,7 +156,16 @@ Upcoming tasks include:
 - Visualization and reporting
 
 ---
+# Database Design
 
+The project uses PostgreSQL to store processed banking review data.
+
+Tables:
+- banks
+- reviews
+
+The schema was designed using relational database principles,
+with foreign key relationships between banks and reviews.
 # Author
 
 Prepared as part of the Omega Consultancy Fintech Review Analytics Challenge.
